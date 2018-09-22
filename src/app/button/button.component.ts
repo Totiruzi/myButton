@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
+    title: String = 'Hello';
+
+    clickEvent(){
+        this.title;
+    }
+
   constructor() { }
 
   ngOnInit() {
