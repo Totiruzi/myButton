@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ButtonComponent implements OnInit {
 
     title: String = 'Hello';
+    text: boolean ;
 
-    clickEvent(){
-        this.title;
+    clickEvent() {
+        /*this.title = 'Hello World';*/
+        this.text = !this.text;
     }
 
   constructor() { }
